@@ -1,0 +1,43 @@
+html,body{
+    height:100%;
+    margin:0px;
+}
+
+.container {
+    display: flex;
+    border: solid gray;
+    height: 70%;
+    margin:16px;
+}
+
+.column{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.rowItem {
+    flex:1;
+    border: dashed rgb(236, 236, 236) 1px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 16px;
+}
+
+.title {
+    text-align: center;
+    margin: 16px;
+    padding-top: 8px;
+}
+
+.sizeInput, .colorSelection{
+    text-align: center;
+    margin: 16px;
+}
+
+.column, .rowItem {
+    cursor: crosshair;
+}
